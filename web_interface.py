@@ -112,6 +112,15 @@ if __name__ == '__main__':
     run_web_interface()
     
 # Add this for Vercel compatibility
-if __name__ != "__main__":
-    # This runs when imported by Vercel
-    pass
+# Add this at the end of web_interface.py
+# Add this at the end of web_interface.py
+def run_web_interface():
+    """Run the web interface"""
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    print("Starting Python Terminal Web Interface...")
+    print(f"Access the terminal at: http://localhost:{port}")
+    app.run(debug=False, host='0.0.0.0', port=port)
+
+if __name__ == '__main__':
+    run_web_interface()
