@@ -1,0 +1,5 @@
+flask==2.3.3
+psutil==5.9.5
+colorama==0.4.6
+prompt-toolkit==3.0.39
+python-dotenv==1.0.0

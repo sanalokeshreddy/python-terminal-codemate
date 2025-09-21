@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Terminal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="terminal-controls">
+                <span class="control close"></span>
+                <span class="control minimize"></span>
+                <span class="control maximize"></span>
+            </div>
+            <div class="terminal-title">Python Terminal</div>
+            <div class="terminal-options">
+                <button id="ai-toggle" class="ai-button">AI Mode: OFF</button>
+                <button id="clear-btn" class="clear-button">Clear</button>
+            </div>
+        </div>
+        <div class="terminal-body" id="terminal">
+            <div class="welcome-message">
+                <div class="ascii-art">
+╔══════════════════════════════════════════════════════════════╗
+║                    Python Terminal v1.0                     ║
+║              A fully functional command terminal             ║
+╚══════════════════════════════════════════════════════════════╝
+                </div>
+                <div class="welcome-text">
+                    <p>Welcome to Python Terminal! Type 'help' for available commands.</p>
+                    <p>Features: File operations, System monitoring, AI natural language commands</p>
+                </div>
+            </div>
+            <div class="command-line">
+                <span class="prompt" id="prompt">user@terminal:~$ </span>
+                <input type="text" id="command-input" autocomplete="off" spellcheck="false">
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
