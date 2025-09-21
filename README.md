@@ -4,6 +4,7 @@ A fully functional command terminal built from the ground up in Python, featurin
 
 **Live Demo:** https://python-terminal-codemate.onrender.com/
 
+<<<<<<< HEAD
 ## 📸 User Interface
 
 ![Terminal UI Screenshot](./screenshots/terminal-ui.png)
@@ -14,6 +15,10 @@ A fully functional command terminal built from the ground up in Python, featurin
 
 ## 🌟 Core Features
 
+=======
+## 🌟 Core Features
+
+>>>>>>> 9704bbe495a9fa090626db55eff14ae86fbadf06
 * **Complete Terminal Functionality**: Implements all standard terminal commands (`ls`, `cd`, `pwd`, `mkdir`, `rm`, `cp`, `mv`, `cat`, etc.) with custom Python logic.
 * **Live System Monitoring**: Provides real-time insights into system health with integrated process management (`ps`, `kill`) and resource monitoring (`top`) powered by `psutil`.
 * **🧠 AI-Powered Natural Language Processing**: The standout feature. Switch to "AI mode" and give commands in plain English (e.g., *"create a new folder called 'documents' and move my 'report.txt' file into it"*). The system interprets this and executes the correct sequence of shell commands.
@@ -36,10 +41,18 @@ Follow these instructions to get the terminal running on your local machine.
 ### 1. Clone the Repository
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/sanalokeshreddy/python-terminal-codemate.git
 cd python-terminal-codemate
 ```
 
+=======
+git clone https://github.com/your-username/python-terminal-codemate.git
+cd python-terminal-codemate
+```
+
+*(Replace `your-username` with your actual GitHub username)*
+>>>>>>> 9704bbe495a9fa090626db55eff14ae86fbadf06
 
 ### 2. Create and Activate a Virtual Environment
 
@@ -83,4 +96,8 @@ This will start a local web server, allowing you to access the terminal in your 
 python main.py --web
 ```
 
+<<<<<<< HEAD
 Navigate to `http://127.0.0.1:5000` in your web browser to start using the terminal.
+=======
+Navigate to `http://127.0.0.1:5000` in your web browser to start using the terminal.
+>>>>>>> 9704bbe495a9fa090626db55eff14ae86fbadf06
