@@ -2,8 +2,6 @@
 
 A fully functional command terminal built from the ground up in Python, featuring an AI-powered natural language command interpreter and a responsive web interface. This project was developed as a submission for the **#SRMHacksWithCodemate** Hackathon.
 
-**Live Demo:** https://python-terminal-codemate.onrender.com/
-
 ## 📸 User Interface
 
 ![Web Interface Screenshot](./screenshots/terminal-ui.png)
